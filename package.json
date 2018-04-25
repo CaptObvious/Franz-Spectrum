@@ -1,0 +1,22 @@
+
+{
+  "id": "rsi-spectrum",
+  "name": "RSI Spectrum",
+  "version": "1.0.0",
+  "description": "RSI Spectrum plugin for Franz",
+  "main": "index.js",
+  "author": {
+    "name": "CaptObvious",
+    "url": "https://github.com/CaptObvious"
+  },
+  "homepage": "https://github.com/CaptObvious/Franz-Spectrum",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CaptObvious/Franz-Spectrum"
+  },
+  "config": {
+    "serviceURL": "https://robertsspaceindustries.com/spectrum"
+  }
+}
+

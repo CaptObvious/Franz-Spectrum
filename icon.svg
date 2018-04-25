@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="306" height="331" viewBox="0 0 306 331">
+  <defs>
+    <linearGradient id="spectrum_logo-a" x1="50%" x2="50%" y1="2.076%" y2="58.437%">
+      <stop offset="0%" stop-color="#65CEFF" stop-opacity=".8"/>
+      <stop offset="100%" stop-color="#379ECE" stop-opacity=".75"/>
+    </linearGradient>
+    <linearGradient id="spectrum_logo-d" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#88E5FC"/>
+      <stop offset="100%" stop-color="#28D1FB"/>
+    </linearGradient>
+    <polygon id="spectrum_logo-c" points="40 285 176 285 176 321 212 285 266 285 152.5 52"/>
+    <filter id="spectrum_logo-b" width="111.9%" height="110%" x="-6%" y="-3.9%" filterUnits="objectBoundingBox">
+      <feOffset dy="3" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feMorphology in="SourceAlpha" radius="10" result="shadowInner"/>
+      <feOffset dy="3" in="shadowInner" result="shadowInner"/>
+      <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"/>
+      <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+      <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.3 0"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <polygon fill="#3BA9DC" fill-opacity=".4" points="217.5 134.5 305.175 317.951 153.5 188.5"/>
+    <polygon fill="#3BA9DC" fill-opacity=".4" points="153.37 188.424 .529 317.951 88.5 133.5"/>
+    <polygon fill="url(#spectrum_logo-a)" points="216.5 133.5 153.5 187.5 89.5 132.5 126.633 54.833 152.852 .127"/>
+    <use fill="#000" filter="url(#spectrum_logo-b)" xlink:href="#spectrum_logo-c"/>
+    <path stroke="url(#spectrum_logo-d)" stroke-width="10" d="M47.9664764,280 L181,280 L181,308.928932 L209.928932,280 L258.0027,280 L152.519906,63.4582294 L47.9664764,280 Z"/>
+  </g>
+</svg>
